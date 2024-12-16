@@ -1,0 +1,18 @@
+[project]
+name = "aivis-api"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "aivmlib>=1.0.0",
+    "pyyaml>=6.0.2",
+    "requests>=2.32.3",
+    "sounddevice>=0.5.1",
+    "soundfile>=0.12.1",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=8.3.4",
+]
